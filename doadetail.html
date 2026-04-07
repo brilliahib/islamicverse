@@ -1,231 +1,270 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ISLAMICVERSE | Doa Sehari - Hari</title>
-    <link rel="icon" href="img/logo_text 1.png" type="image/png">
+    <link rel="icon" href="img/logo_text 1.png" type="image/png" />
     <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
     <!-- link css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- font google -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- aos  -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
     <script src="countdown/simplyCountdown.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="load">
-        <img src="img/load.gif" alt="">
+      <img src="img/load.gif" alt="" />
     </div>
     <nav class="navbar navbar-expand-lg body-transparent sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo_text 1.png" alt="" width="50px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto fw-bold">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tentang.html">Tentang</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="jadwal-sholat.html">Jadwal Sholat</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Ayo belajar!
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-start">
-                            <li><a class="dropdown-item" href="ayobelajar.html">Baca Al-Qur'an</a></li>
-                            <li><a class="dropdown-item" href="doa.html">Doa - Doa Sehari-hari</a></li>
-                            <li><a class="dropdown-item" href="gerakansholat.html">Gerakan Sholat</a></li>
-                            <li><a class="dropdown-item" href="quiz.html">Quiz</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo_text 1.png" alt="" width="50px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jadwal-sholat.html">Jadwal Sholat</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Ayo belajar!
+              </a>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li>
+                  <a class="dropdown-item" href="ayobelajar.html"
+                    >Baca Al-Qur'an</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="doa.html"
+                    >Doa - Doa Sehari-hari</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="gerakansholat.html"
+                    >Gerakan Sholat</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="quiz.html">Quiz</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <section id="heading" class="heading">
-        <div class="container">
-            <div class="heading-content">
-                <div class="heading-text">
-                    <h1>Doa Sehari - Hari</h1>
-                </div>
-            </div>
+      <div class="container">
+        <div class="heading-content">
+          <div class="heading-text">
+            <h1>Doa Sehari - Hari</h1>
+          </div>
         </div>
+      </div>
     </section>
 
     <main>
-        <section id="detail-doa" class="detail-doa mt-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- informasi surat -->
-                        <div class="card mb-4">
-                            <div class="card-body mb-4 judul-doa">
+      <section id="detail-doa" class="detail-doa mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <!-- informasi surat -->
+              <div class="card mb-4">
+                <div class="card-body mb-4 judul-doa"></div>
+              </div>
+              <!-- end informasi surat -->
 
-                            </div>
-                        </div>
-                        <!-- end informasi surat -->
-
-                        <!-- isi surat -->
-                        <div class="card-isi-doa">
-
-                        </div>
-                        <!-- end surat -->
-                    </div>
-                </div>
+              <!-- isi surat -->
+              <div class="card-isi-doa"></div>
+              <!-- end surat -->
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="footer" class="footer">
-            <div class="container">
-                <div class="footer-content">
-                    <div class="row">
-                        <div class="col-sm-4 mb-3 mb-sm-0">
-                            <div class="footer-img">
-                                <img class="mb-4" src="img/logo_text 1.png" width="150px" alt="">
-                                <p class="fw-semibold">"Aplikasi Islami, Teknologi
-                                    Modern, Kebaikan Abadi."</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4 mb-3 mb-sm-0">
-                            <div class="footer-links">
-                                <div class="heading-footer">
-                                    <p class="fw-bold">Links</p>
-                                </div>
-                                <p>
-                                    <a href="index.html">Home</a>
-                                </p>
-                                <p>
-                                    <a href="tentang.html">Tentang</a>
-                                </p>
-                                <p>
-                                    <a href="jadwal-sholat.html">Jadwal Sholat</a>
-                                </p>
-                                <p>
-                                    <a href="quiz.html">Quiz</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4 mb-3 mb-sm-0">
-                            <div class="footer-service">
-                                <div class="heading-footer">
-                                    <p class="fw-bold">Service</p>
-                                </div>
-                                <p>
-                                    <a href="ayobelajar.html">Baca Al-Quran</a>
-                                </p>
-                                <p>
-                                    <a href="doa.html">Doa Sehari - Hari</a>
-                                </p>
-                                <p>
-                                    <a href="gerakansholat.html">Gerakan Sholat</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <hr class="mb-3" style="color: #000;">
-                            <p class="text-center" style="color: #000;">Copyright All Right Reserved | Made by <span
-                                    style="color: #000;">Brilliahib & Akhila Zahra</span>
-                            </p>
-                        </div>
-                    </div>
+      <section id="footer" class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="row">
+              <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="footer-img">
+                  <img
+                    class="mb-4"
+                    src="img/logo_text 1.png"
+                    width="150px"
+                    alt=""
+                  />
+                  <p class="fw-semibold">
+                    "Aplikasi Islami, Teknologi Modern, Kebaikan Abadi."
+                  </p>
                 </div>
+              </div>
+              <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="footer-links">
+                  <div class="heading-footer">
+                    <p class="fw-bold">Links</p>
+                  </div>
+                  <p>
+                    <a href="index.html">Home</a>
+                  </p>
+                  <p>
+                    <a href="tentang.html">Tentang</a>
+                  </p>
+                  <p>
+                    <a href="jadwal-sholat.html">Jadwal Sholat</a>
+                  </p>
+                  <p>
+                    <a href="quiz.html">Quiz</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-sm-4 mb-3 mb-sm-0">
+                <div class="footer-service">
+                  <div class="heading-footer">
+                    <p class="fw-bold">Service</p>
+                  </div>
+                  <p>
+                    <a href="ayobelajar.html">Baca Al-Quran</a>
+                  </p>
+                  <p>
+                    <a href="doa.html">Doa Sehari - Hari</a>
+                  </p>
+                  <p>
+                    <a href="gerakansholat.html">Gerakan Sholat</a>
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
+            <div class="row">
+              <div class="col-12">
+                <hr class="mb-3" style="color: #000" />
+                <p class="text-center" style="color: #000">
+                  Copyright All Right Reserved | Made by
+                  <span style="color: #000">Brilliahib & Akhila Zahra</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-<script src="script.js"></script>
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
 
-<script>
+  <script>
     document.addEventListener("DOMContentLoaded", function () {
-        // Tampilkan preloader saat halaman dimuat
-        var preloader = document.querySelector(".load");
+      // Tampilkan preloader saat halaman dimuat
+      var preloader = document.querySelector(".load");
 
-        // Tunda penghilangan preloader dan munculnya konten
-        setTimeout(function () {
-            // Sembunyikan preloader
-            preloader.style.opacity = "0";
-            preloader.style.pointerEvents = "none";
+      // Tunda penghilangan preloader dan munculnya konten
+      setTimeout(function () {
+        // Sembunyikan preloader
+        preloader.style.opacity = "0";
+        preloader.style.pointerEvents = "none";
 
-            // Tampilkan konten
-            var content = document.querySelector(".content");
-            content.style.opacity = "1";
-        }, 2500); // Sesuaikan waktu penundaan sesuai kebutuhan (dalam milidetik)
+        // Tampilkan konten
+        var content = document.querySelector(".content");
+        content.style.opacity = "1";
+      }, 2500); // Sesuaikan waktu penundaan sesuai kebutuhan (dalam milidetik)
     });
-</script>
+  </script>
 
-<script>
-    function getURL(e) {
-        const pageURL = window.location.search.substring(1);
-        const urlVariables = pageURL.split('&');
-
-        for (let i = 0; i < urlVariables.length; i++) {
-            const parameterName = urlVariables[i].split('=');
-            if (parameterName[0] === e) {
-                return parameterName[1];
-            }
-        }
+  <script>
+    function getURL(param) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(param);
     }
 
-    const nomorDoa = getURL('nomordoa');
-
+    const nomorDoa = getURL("nomordoa");
     const endpoint = `https://equran.id/api/doa/${nomorDoa}`;
 
     fetch(endpoint)
-        .then((data) => data.json())
-        .then((result) => {
-            const judulDoa = document.querySelector('.judul-doa');
-            const cardJudulDoa = `
-        <strong>${result.grup} - ${result.nama}</strong>
-        `
-            judulDoa.innerHTML = cardJudulDoa;
-            console.log(judulDoa);
-            // ISI DOA
-            const doaItem = result;  // Mengakses objek langsung
-            const isiDoa = `
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h2 class="text-end mb-4 lh-base fw-medium">${doaItem.ar}</h2>
-                    <p class="ayat lh-lg">${doaItem.tr}</p>
-                    <p><span class="fw-bold lh-lg">Artinya</span> : <br>${doaItem.idn}</p>
-                </div>
-            </div>
+      .then((res) => res.json())
+      .then((result) => {
+        const data = result.data;
+
+        if (!data) {
+          document.querySelector(".judul-doa").innerHTML = `
+          <div class="alert alert-warning mb-0">
+            Data doa tidak ditemukan.
+          </div>
         `;
+          document.querySelector(".card-isi-doa").innerHTML = "";
+          return;
+        }
 
-            // END ISI SURAT
-            const cardIsiDoa = document.querySelector('.card-isi-doa');
-            cardIsiDoa.innerHTML = isiDoa;
-        });
+        const judulDoa = document.querySelector(".judul-doa");
+        judulDoa.innerHTML = `
+        <strong>${data.grup} - ${data.nama}</strong>
+      `;
 
-</script>
-
+        const cardIsiDoa = document.querySelector(".card-isi-doa");
+        cardIsiDoa.innerHTML = `
+        <div class="card mb-3">
+          <div class="card-body">
+            <h2 class="text-end mb-4 lh-base fw-medium">${data.ar}</h2>
+            <p class="ayat lh-lg">${data.tr}</p>
+            <p><span class="fw-bold lh-lg">Artinya</span> : <br>${data.idn}</p>
+            <hr>
+            <p class="mb-0"><span class="fw-bold">Tentang</span> : <br>${data.tentang.replace(/\n/g, "<br>")}</p>
+          </div>
+        </div>
+      `;
+      })
+      .catch((error) => {
+        console.error("Gagal mengambil detail doa:", error);
+        document.querySelector(".judul-doa").innerHTML = `
+        <div class="alert alert-danger mb-0">
+          Gagal mengambil data doa.
+        </div>
+      `;
+      });
+  </script>
 </html>
